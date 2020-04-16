@@ -1,0 +1,11 @@
+$purple: #7347c1;
+$grey: #eff1f5;
+$blue: #0674ec;
+$text: #555;
+
+
+@mixin bg {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
