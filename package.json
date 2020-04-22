@@ -1,5 +1,5 @@
 {
-  "name": "gulp-00",
+  "name": "roman-boychenko",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,20 +9,22 @@
   "author": "Roman Boychenko",
   "license": "ISC",
   "devDependencies": {
-    "@fancyapps/fancybox": "^3.5.7",
     "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
     "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^7.0.1",
+    "gulp-autoprefixer": "^7.0.0",
     "gulp-concat": "^2.6.1",
-    "gulp-cssmin": "^0.2.0",
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.2",
     "gulp-uglify": "^3.0.2",
     "jquery-form-styler": "^2.0.2",
+    "normalize.css": "^8.0.1"
+  },
+  "dependencies": {
     "magnific-popup": "^1.1.0",
+    "slick-carousel": "^1.8.1",
     "mixitup": "^3.3.1",
-    "normalize.css": "^8.0.1",
-    "rateyo": "^2.3.5",
-    "slick-carousel": "^1.8.1"
+    "ion-rangeslider": "^2.3.0",
+    "rateyo": "^2.3.5"
   }
 }

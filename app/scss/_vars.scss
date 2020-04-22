@@ -1,11 +1,26 @@
+/************************
+          COLOR(S)
+************************/ 
+$header-bg: #eef1f3;
+$header-color: #333;
+$btn-bg: #0674ec;
+$red: #ff6a6c;
 $purple: #7347c1;
-$grey: #eff1f5;
-$blue: #0674ec;
+$border: #ececec;
 $text: #555;
+$bg: #eff1f5;
+$yellow: #feb71d;
+$green: #62d03b;
+$footer-bg: #262b30;
 
-
-@mixin bg {
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
+/************************
+          MIXIN(S)
+************************/ 
+@mixin f500 {
+  font-family: 'Quicksand-Medium';
+  font-weight: 500;
+}
+@mixin f700 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
 }
